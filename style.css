@@ -29,3 +29,24 @@ body{
         border-bottom: none;
     }
 }
+
+/* Hero */
+.shop{
+    border: 1px solid rgb(85, 85, 85);
+    padding: 10px 28px;
+    color: rgb(85, 85, 85);
+    border-radius: 25px;
+    font-weight: 500;
+    background-color: #fff;
+}
+.shop:hover{
+    background-color: var(--pink);
+    color: #fff;
+    border: 1px solid #fff;
+}
+#hero{
+    background: url(/Ecommerce/pictures/banner-img-1.jpg) top/cover no-repeat;
+}
+.pink{
+    color: var(--pink);
+}
