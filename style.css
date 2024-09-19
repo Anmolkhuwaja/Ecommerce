@@ -50,3 +50,23 @@ body{
 .pink{
     color: var(--pink);
 }
+
+/* Collection */
+.title h2::before{
+    position:absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: var(--pink);
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.active-filter-btn{
+    background-color: var(--pink) !important;
+    color: #fff;
+    border: 1px solid #e5345b !important;
+}
+.pinK{
+    background-color: var(--pink);
+}
