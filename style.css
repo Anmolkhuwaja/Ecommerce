@@ -78,3 +78,20 @@ body{
 .special-image:hover img{
     transform: scale(1.2);
 }
+
+/* offers */
+#offers{
+    background: url(/Ecommerce/pictures/offer_img.jpg) center/cover no-repeat;
+}
+#offers .row{
+    min-height: 60vh;
+}
+.offers-content span{
+    font-size: 32px;
+}
+.offers-content h2{
+    font-size: 60px;
+    font-family: var(--lg-font);
+}.offers-content .shop{
+    border-color: transparent !important;
+}
