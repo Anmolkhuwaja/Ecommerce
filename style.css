@@ -95,3 +95,40 @@ body{
 }.offers-content .shop{
     border-color: transparent !important;
 }
+
+/* About */
+
+
+/* Newsletter */
+#newsletter{
+    background-color: rgba(179, 179, 179, 0.05);
+}
+
+#newsletter p{
+    max-width: 600px;
+}
+
+#newsletter .input-group{
+    max-width: 500px;
+}
+
+#newsletter .form-control{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+#newsletter .shop{
+    background-color: var(--pink) !important;
+    color: #fff;
+    border-color: #e5345b;
+}
+#newsletter .shop:hover{
+    background-color: black !important;
+    border-color: black;
+}
+
+/* Footer */
+footer .brand{
+    font-family: var(--lg-font);
+    letter-spacing: 2px;
+}
